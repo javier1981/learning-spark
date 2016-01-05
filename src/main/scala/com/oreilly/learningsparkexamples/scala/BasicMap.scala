@@ -5,7 +5,7 @@ package com.oreilly.learningsparkexamples.scala
 
 import org.apache.spark._
 
-object BasicMap {
+object BasicMap2 {
     def main(args: Array[String]) {
       val master = args.length match {
         case x: Int if x > 0 => args(0)

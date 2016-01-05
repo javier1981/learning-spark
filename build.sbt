@@ -1,6 +1,8 @@
-import AssemblyKeys._
+import sbt._
+import Process._
+import Keys._
 
-assemblySettings
+
 
 name := "learning-spark-examples"
 
